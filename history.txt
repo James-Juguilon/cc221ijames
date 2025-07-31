@@ -1,0 +1,99 @@
+    1  pkg search -
+    2  pkg install -
+    3  pkg upgrade
+    4  pkg install neofetch cmatrix git gh
+    5  gh auth login
+    6  git clone https://github.com/James-Juguilon/cc221ijames/
+    7  touch cc221i.txt
+    8  cd cc221ijames
+    9  touch cc221i.txt
+   10  git add cc221i.txt
+   11  git config --global user.email jamesjuguilon123@gmail.com
+   12  git config --global user.name James-Juguilon
+   13  git commit -m "git demo on termux"
+   14  git push
+   15  mkdir -p project/src/utils
+   16  cd project/src/utils
+   17  cd ../..
+   18  mv src source
+   19  rm -r source
+   20  touch file1.txt file2.txt file3.txt
+   21  cp file1.txt copy_of_file1.txt
+   22  mv file2.txt ../file2_moved.txt
+   23  rm file3.txt
+   24  nano file1.txt
+   25  cat file1.txt
+   26  head file1.txt
+   27  tail file1.txt
+   28  grep "Russian Roullete" file1.txt
+   29  grep "Russian Roulette" file1.txt
+   30  less file1.txt
+   31  ls -l file1.txt
+   32  chmod 644 file1.txt
+   33  chmod +x script.sh
+   34  touch script.sh
+   35  chmod +x script.sh
+   36  sudo chown newowner:newgroup file1.txt
+   37  pkg install tsu
+   38  sudo chown newowner:newgroup file1.txt
+   39  ifconfig
+   40  ping www.google.com
+   41  netstat -tuln
+   42  netstat -s
+   43  df -h
+   44  du -sh /path/to/directory
+   45  ps aux
+   46  kill -9 PID
+   47  top
+   48  tar -cvf archive.tar file1.txt file2.txt
+   49  tar -xvf archive.tar
+   50  tar -czvf archive.tar.gz file1.txt file2.txt
+   51  tar -xzvf archive.tar.gz
+   52  cmatrix
+   53  pwd
+   54  ../
+   55  cd ../
+   56  pwd
+   57  ls -la
+   58  mkdir linux_practice
+   59  cs linux_practice
+   60  cd linux_practice
+   61  touch notes.txt
+   62  ls ~
+   63  cd ~
+   64  sudo apt update
+   65  sudo apt install neofetch
+   66  cd cc211ijames
+   67  cd /cc221ijames
+   68  cd cc221ijames
+   69  sudo apt update
+   70  neofetch
+   71  neofetch > system_info.txt
+   72  cat system_info.txt
+   73  cp system_info.txt ~/linux_practice/
+   74  cp system_info.txt project/linux_practice/
+   75  ls
+   76  tree
+   77  pkg install tree
+   78  tree
+   79  cp system_info.txt linux_practice
+   80  tree
+   81  cd linux_practice
+   82  ls
+   83  sudo apt
+   84  sudo apt update
+   85  sudo apt install cmatrix
+   86  cmatrix
+   87  nano matrix_notes.txt
+   88  cat matrix_notes
+   89  cat matrix_notes.txt
+   90  df -h
+   91  ps aux
+   92  rm system_info.txt
+   93  rm -r linux_practice
+   94  cd ../
+   95  rm -r linux_practice
+   96  clear
+   97  dpkg -l | grep neo
+   98  history
+   99  history > history.txt
